@@ -1,0 +1,11 @@
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+header { display: flex; justify-content: space-between; padding: 1rem 2rem; background: #111; color: white; }
+.logo img { height: 40px; margin-right: 10px; }
+nav a { color: white; margin: 0 10px; text-decoration: none; }
+.hero { text-align: center; padding: 4rem 1rem; background: #007bff; color: white; }
+.cta { display: inline-block; background: white; color: #007bff; padding: 0.8rem 1.5rem; text-decoration: none; margin-top: 1rem; }
+.tools-grid { padding: 2rem; background: white; }
+.tools-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.tools-container a { background: #eee; padding: 1rem; text-align: center; border-radius: 5px; text-decoration: none; color: black; }
+footer { background: #111; color: white; text-align: center; padding: 1rem; }
